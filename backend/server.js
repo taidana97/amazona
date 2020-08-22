@@ -17,6 +17,8 @@ dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;
 
+console.log(mongodbUrl);
+
 mongoose
   .connect(mongodbUrl, {
     useNewUrlParser: true,
